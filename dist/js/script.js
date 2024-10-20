@@ -14,3 +14,8 @@ hamburger.addEventListener('click', function(){
     hamburger.classList.toggle('hamburger-active')
     navMenu.classList.toggle('hidden')
 })
+
+const contact = document.getElementById('contact-me')
+contact.addEventListener('click', function(){
+    console.log("sadsajdvad");
+})

@@ -690,6 +690,14 @@ video {
   margin-top: 1.25rem;
 }
 
+.-mt-8 {
+  margin-top: -2rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -800,6 +808,11 @@ video {
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
 }
 
+.bg-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
@@ -810,9 +823,9 @@ video {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-.bg-slate-700 {
+.bg-slate-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -822,21 +835,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
-
-.bg-slate-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-}
-
-.bg-dark {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 .p-3 {
@@ -886,6 +884,10 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -902,16 +904,20 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
-}
-
 .pt-24 {
   padding-top: 6rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
+.pt-36 {
+  padding-top: 9rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .text-center {
@@ -1001,6 +1007,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.placeholder-teal-300::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(94 234 212 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-teal-300::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(94 234 212 / var(--tw-placeholder-opacity));
 }
 
 .shadow-lg {
@@ -1113,12 +1129,12 @@ body{
     width: 50%;
   }
 
-  .md\:w-1\/5 {
-    width: 20%;
-  }
-
   .md\:w-1\/3 {
     width: 33.333333%;
+  }
+
+  .md\:w-1\/5 {
+    width: 20%;
   }
 
   .md\:scale-125 {
@@ -1154,6 +1170,14 @@ body{
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:-mt-8 {
+    margin-top: -2rem;
+  }
+
+  .lg\:-mt-10 {
+    margin-top: -2.5rem;
   }
 
   .lg\:block {
